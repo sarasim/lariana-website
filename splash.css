@@ -1,0 +1,141 @@
+/* splash.css - main CSS styles for LarianaCellars.com splash website */
+
+html, body {
+	margin:0; padding:0;
+}
+
+body {
+	background:#000 url(../img/body-bg.jpg) repeat-y center top;
+}
+
+.clear {
+	clear:both;
+}
+
+h1, h2, h3, h4 {
+	margin:0; padding:0;
+}
+
+h2 {
+	font-weight:normal;
+}
+
+a {
+	color:#ccc;
+	text-decoration:none;
+}
+
+	a:hover {
+		color:#999;
+	}
+
+#page {
+	background:#000 url(../img/page-bg.jpg) no-repeat center top;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+	color:#fff;
+}
+
+	#page-inner {
+		background:#000 url(../img/page-bg.jpg) no-repeat center top;
+		width:1200px;
+		margin:0 auto;
+	}
+
+
+
+												/* wine review */
+
+#review {
+	width:585px;
+	float:right;
+	margin:25px 0 0 0;
+	font-style:italic;
+}
+
+	#review p {
+		line-height:16px;
+	}
+
+#review #viognier {
+width:282px;
+margin-right:20px;
+padding-top:700px;
+float:left;
+background:url(../img/bottle-shot-2016-VIOGNIER.png) no-repeat center 10px;
+}
+
+#review #twelve {
+width:282px;
+padding-top:700px;
+float:left;
+background:url(../img/bottle-shot-TWELVE.png) no-repeat center top;
+}
+
+#review #thirteen {
+width:282px;
+margin-right:20px;
+padding-top:740px;
+float:left;
+background:url(../img/bottle-shot-THIRTEEN.png) no-repeat center 37px;
+}
+
+#review #carmenere {
+width:282px;
+padding-top:740px;
+float: left;
+background:url(../img/bottle-shot-2013-CARMENERE.png) no-repeat center 40px;
+}
+
+												/* content */
+
+#content {
+	padding:0 580px 0 0;
+	line-height:24px;
+}
+
+	#content-inner {
+		padding-top:98px;
+	}
+
+		h1 {
+			width:240px; height:187px;
+			margin-bottom:40px;
+			background:url(../img/logo.png) no-repeat 0 0;
+			text-indent:-999em;
+		}
+
+		#content p {
+			padding:0 81px 15px 20px;
+			line-height:17px;
+		}
+
+		#contact {
+width:540px;
+padding:34px 0 250px 0;
+			border-top:1px solid #1f1f1f;
+		}
+
+			#contact .name {
+				font-size:17px;
+				font-style:italic;
+			}
+
+			#contact .address {
+				padding-bottom:20px;
+				font-style:italic;
+			}
+
+#contact .twitter {
+	width:42px; height:42px;
+float:right;
+margin:-64px 200px 0 0;
+}
+
+
+			#contact .copyright {
+				font-size:10px;
+			}
+
+			#contact .credits {
+			}
